@@ -1,0 +1,118 @@
+.choice-container {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.choice-container h1, .choice-container h2 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.choice-container p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.choice-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.choice-buttons button {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  border: 2px solid #3498db;
+  background-color: #3498db;
+  color: white;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.choice-buttons button:hover {
+  background-color: white;
+  color: #3498db;
+}
+
+.council-selection select {
+  padding: 0.8rem;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  min-width: 250px;
+}
+
+.events-container {
+  padding: 1rem;
+}
+
+.events-container h1 {
+  color: #2c3e50;
+  margin-bottom: 2rem;
+}
+
+.event-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.event-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  border-left: 5px solid #3498db;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.event-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.event-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  color: #2980b9;
+}
+
+.event-description {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.event-details {
+  font-size: 0.9rem;
+  color: #7f8c8d;
+  border-top: 1px solid #ecf0f1;
+  padding-top: 1rem;
+}
+
+.event-details p {
+  margin: 0.25rem 0;
+}
+
+.loading-message, .no-events-message {
+  font-size: 1.2rem;
+  color: #7f8c8d;
+  text-align: center;
+  padding: 2rem;
+}
+
+.back-button {
+  display: block;
+  margin: 2rem auto 0;
+  background: none;
+  border: none;
+  color: #3498db;
+  cursor: pointer;
+  font-size: 1rem;
+  text-decoration: underline;
+}
+

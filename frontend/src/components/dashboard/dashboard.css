@@ -1,0 +1,20 @@
+/* Set the entire page background to a dark color */
+.dashboard-container {
+  display: flex;
+  min-height: 100vh; /* Ensure it covers the full viewport height */
+  background-color: #111827; /* Dark background for the whole page */
+  padding: 2rem; /* Add some space around the content */
+  gap: 2rem; /* Add space between the sidebar and main content */
+}
+
+
+/* This is the white panel in the middle */
+.main-content {
+  width: 100%;
+  max-width: 1280px; /* Set a max width for the content panel */
+  margin: 0 auto; /* This is key to centering it horizontally */
+  background-color: #f9fafb; /* A light background for the content itself */
+  border-radius: 0.75rem; /* Rounded corners for a modern look */
+  padding: 2rem;
+  overflow-y: auto; /* Add a scrollbar if content is long */
+}
