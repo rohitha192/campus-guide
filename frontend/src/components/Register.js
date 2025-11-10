@@ -18,7 +18,7 @@ const Register = () => {
   const onSubmit = async e => {
     e.preventDefault();
     try {
-      const res = await axios.post('http://localhost:5000/api/auth/register', formData);
+      const res = await axios.post('https://campus-guide-backend-w02j.onrender.com', formData);
       setMessage(res.data.msg);
       // Set a timer to redirect the user to the login page after 2 seconds
       setTimeout(() => {
