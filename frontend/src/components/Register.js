@@ -71,5 +71,6 @@ A         </div>
     </div>
   );
 };
+// This is a test comment
 
 export default Register;
