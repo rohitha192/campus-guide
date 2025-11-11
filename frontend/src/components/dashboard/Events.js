@@ -62,7 +62,7 @@ const Events = () => {
       }
       
       const config = { headers: { 'x-auth-token': token } };
-      let apiUrl = 'http://localhost:5000/api/dashboard/events';
+      let apiUrl = 'https://campus-guide-backend.onrender.com/events';
 
       if (userType === 'member' && selectedCouncil) {
         apiUrl += `?council=${selectedCouncil}`;

@@ -15,7 +15,11 @@ const Login = () => {
   const onSubmit = async (e) => {
     e.preventDefault();
     try {
+<<<<<<< HEAD
       const res = await axios.post('https://campus-guide-backend-w02j.onrender.com', formData);
+=======
+      const res = await axios.post('https://campus-guide-backend.onrender.com', formData);
+>>>>>>> e0f74f6 (Updated all API URLs to production)
 
       localStorage.setItem('token', res.data.token);
       localStorage.setItem('userRole', res.data.role);

@@ -14,7 +14,7 @@ const BlockInfoPopup = ({ blockName, onClose }) => {
         const token = localStorage.getItem('token');
         const config = { headers: { 'x-auth-token': token } };
         // This is the API call to your backend, e.g., /api/blocks/U-Block
-        const res = await axios.get(`http://localhost:5000/api/blocks/${blockName}`, config);
+        const res = await axios.get(`https://campus-guide-backend.onrender.com/blocks/${blockName}`, config);
         setInfo(res.data);
       } catch (error) {
         console.error("Failed to fetch block info:", error);
